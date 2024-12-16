@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Cube, Code, Layers, Palette, Database, Globe } from 'lucide-react';
+import { Package, Code, Layers, Palette, Database, Globe } from 'lucide-react';
 import ServiceCard from '../components/services/ServiceCard';
 
 const Services = () => {
@@ -8,7 +8,7 @@ const Services = () => {
     {
       title: '3D Modeling & Design',
       description: 'Create stunning 3D models and visualizations for your products and projects.',
-      Icon: Cube,
+      Icon: Package,
     },
     {
       title: 'Web Development',
